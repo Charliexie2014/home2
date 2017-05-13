@@ -2,15 +2,28 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<title>home2</title>
+<title>home2 三列布局</title>
 <style type="text/css">
-body{
-	
-	background:#ccc}
+
+body{margin:0;padding:0}
+.left{width:200px;height:500px; background:#CCC;position:absolute;left:0;top:0}
+.middle{height:500px;background:#F66;margin:0 310px 0 210px}
+.right{  width:300px;height:500px;background:#0F9;position:absolute;right:0;top:0}
+.mian{width:100%;background:#FFF}
 </style>
 </head>
 
 <body>
+<div class="mian">
+<div class="left"><font size="+1" face="Times New Roman, Times, serif" color="#0066CC">DIV元素:是用来为HTML文档内大块（block-level）的内容提供结构和背景的元素。DIV的起始标签和结束标签之间的所有内容都是用来构成这个块的，其中所包含元素的特性由DIV标签的属性来控制，或者是通过使用样式表格式化这个块来进行控制。DIV标签称为区隔标记。作用：设定字、画、表格等的摆放位置。当你把文字、图象，或其他的放在 DIV 中，它可称作为"DIV block"，或"DIV element"或"CSS-layer"，或干脆叫"layer"。而中文我们把它称作">层次"。</font> </div>
 
-</body>
-</html>
+<div class="middle"><font size="+5" color="#FF0000" face="Arial, Helvetica, sans-serif">类似于table的一个种网页排版容器，但是DIV可以更加方便、快捷的对网页进行排版和调整位置，简单的说DIV可以通过CSS样式的控制，在网页设计的板块内随便的移动和调整方块的大小。</font></div>
+<div class="right">CSS单元的位置和层次-div标签
+我们都知道，在网页上利用HTML定位文字和图象是一件<font color="#0000FF" face="Tahoma, Geneva, sans-serif" size="+6">"令人心痛"</font>的事情。我们必须使用表格标签和隐式GIF图象，即使这样也不能保证定位的精确，因为浏览器和操作平台不同会使显示的结果发生变化。
+而CSS能使你看到希望的曙光。利用今天我们即将学到的CSS属性，你可以精确地设定元素的位置，还能将定位的元素叠放在彼此之上。</div>
+<img src="./三列布局_files/Eclipse快捷键壁纸大图,0基础必备(大图)已去水印版.jpg">
+</div>
+
+
+
+</body></html>
